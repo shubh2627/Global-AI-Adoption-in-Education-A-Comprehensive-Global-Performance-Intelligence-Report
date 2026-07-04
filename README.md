@@ -19,33 +19,46 @@ Two linked, interactive dashboards:
 1. **Global AI Adoption in Education Dashboard** — geographic overview, adoption-tier breakdown, 2015–2026 growth trend, regional comparison
 2. **Global AI Project: Adoption, Usage and Growth** — daily usage intensity by country, student vs. teacher usage, leading AI tool comparison, urban-rural growth split
 
-Screenshots available in [`docs/images/`](./docs/images).
+Screenshots: [Dashboard 1](./docs/images/Dashboard%201.png) · [Dashboard 2](./docs/images/Dashboard%202.png) · [Story](./docs/images/Story.png)
 
 ## 📁 Repository Structure
 ```
 ├── README.md
-├── data/                      # Raw dataset (CSV)
+├── data/
+│   └── Global AI in Education.csv
 ├── docs/
-│   ├── Word_Documents/        # Full project documentation set (9 files)
-│   └── images/                # Dashboard & story screenshots
-├── tableau/                   # Tableau workbook (.twbx)
+│   ├── Report.pdf
+│   ├── Project Initialization and Planning.pdf
+│   ├── Data Quality Report.pdf
+│   ├── Raw Data Source Report.pdf
+│   ├── Data Exploration and Preprocessing.pdf
+│   ├── Documentation.pdf
+│   ├── Visualization Report.pdf
+│   ├── Dashboard.pdf
+│   ├── Story.pdf
+│   └── images/
+│       ├── Dashboard 1.png
+│       ├── Dashboard 2.png
+│       └── Story.png
+├── tableau/
+│   └── global_ai_education_analysis.twbx
 └── LICENSE
 ```
 
 ## 📄 Documentation
-Full project documentation is available in [`docs/Word_Documents/`](./docs/Word_Documents):
+Full project documentation is available in [`docs/`](./docs):
 
 | File | Description |
 |---|---|
-| `01_Project_Initialization_and_Planning.docx` | Problem statement, business question, work breakdown structure, deliverables |
-| `02_Data_Quality_Report.docx` | Data quality issues, severity, and resolution plans |
-| `03_Raw_Data_Source_Report.docx` | Data collection plan and raw source identification |
-| `04_Data_Exploration_and_Preprocessing.docx` | Data cleaning, transformation, and modeling steps |
-| `05_Documentation.docx` | Full end-to-end BI project documentation (executive summary, dataset, methodology, insights) |
-| `06_Visualization_Report.docx` | Business questions mapped to visualizations and findings |
-| `07_Dashboard.docx` | Dashboard design breakdown with screenshots |
-| `08_Story.docx` | Tableau Story walkthrough with screenshot |
-| `09_Full_Data_Report.docx` | All of the above combined into a single report |
+| [Report.pdf](./docs/Report.pdf) | Consolidated report combining all project phases into one document |
+| [Project Initialization and Planning.pdf](./docs/Project%20Initialization%20and%20Planning.pdf) | Problem statement, business question, work breakdown structure, deliverables |
+| [Data Quality Report.pdf](./docs/Data%20Quality%20Report.pdf) | Data quality issues, severity, and resolution plans |
+| [Raw Data Source Report.pdf](./docs/Raw%20Data%20Source%20Report.pdf) | Data collection plan and raw source identification |
+| [Data Exploration and Preprocessing.pdf](./docs/Data%20Exploration%20and%20Preprocessing.pdf) | Data cleaning, transformation, and modeling steps |
+| [Documentation.pdf](./docs/Documentation.pdf) | Full end-to-end BI project documentation (executive summary, dataset, methodology, insights) |
+| [Visualization Report.pdf](./docs/Visualization%20Report.pdf) | Business questions mapped to visualizations and findings |
+| [Dashboard.pdf](./docs/Dashboard.pdf) | Dashboard design breakdown with screenshots |
+| [Story.pdf](./docs/Story.pdf) | Tableau Story walkthrough with screenshot |
 
 ## 🔍 Key Findings
 - Global student AI usage grew ~12x, from 4.98% (2015) to 60.75% (2026)
@@ -56,10 +69,10 @@ Full project documentation is available in [`docs/Word_Documents/`](./docs/Word_
 - The gender gap in AI usage has held steady between 5.05 and 5.91 points throughout
 
 ## 📈 Data Source
-`Global_AI_in_Education.csv` — 1,360 monthly records (2015–2026), 10 countries, 6 regions, 16 attributes. Source: [Kaggle](https://www.kaggle.com/datasets/abidhussai512/global-ai-in-education-dataset-20152026).
+[`Global AI in Education.csv`](./data/Global%20AI%20in%20Education.csv) — 1,360 monthly records (2015–2026), 10 countries, 6 regions, 16 attributes. Source: [Kaggle](https://www.kaggle.com/datasets/abidhussai512/global-ai-in-education-dataset-20152026).
 
 ## 🚀 How to View
-1. Clone this repo
+1. Clone or download this repo
 2. Open the `.twbx` file in Tableau Desktop, **or**
 3. View the live dashboard/story via the Tableau Public links above
 
